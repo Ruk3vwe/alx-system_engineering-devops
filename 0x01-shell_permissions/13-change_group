@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp hello -c school
+chown --reference=hello school
