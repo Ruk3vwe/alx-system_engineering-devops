@@ -1,2 +1,2 @@
 #!/bin/bash
-ls 'NR % 2'
+ls --sort(odd)
