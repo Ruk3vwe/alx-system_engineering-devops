@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --sort(odd)
+paste - - | cut -f1
