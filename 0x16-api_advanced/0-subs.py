@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 17 11:47:53 2020
+Created on Thu Sep 21 03:35 2023
 
-@author: Robinson Montes
+@author: Anita Ododo
 """
 from json import loads
 from requests import get
@@ -28,4 +28,3 @@ def number_of_subscribers(subreddit):
         return int(subscribers)
     except:
         return 0
-    

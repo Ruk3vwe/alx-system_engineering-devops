@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-Created on Thu Sep 17 11:47:53 2020
+Created on Thu Sep 21 03:37 2023
 
-@author: Robinson Montes
+@author: Anita Ododo
 """
 from json import loads
 from requests import get
@@ -27,4 +27,3 @@ def top_ten(subreddit):
             print(children[i].get('data').get('title'))
     except:
         print('None')
-        

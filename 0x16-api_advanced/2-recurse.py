@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 17 11:47:53 2020
+Created on Thu Sep 21 03:39 2023
 
-@author: Robinson Montes
+@author: Anita Ododo
 """
 from json import loads
 from requests import get
@@ -31,4 +31,3 @@ def recurse(subreddit, hot_list=[]):
     except:
         print(None)
         return 0
-    
