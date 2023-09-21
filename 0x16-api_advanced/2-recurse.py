@@ -14,8 +14,6 @@ def recurse(subreddit, hot_list=[]):
     containing the titles of all hot articles for a given subreddit. If no
     results are found for the given subreddit, the function should return None.
     """
-    if hot_list is None:
-        hot_list = []
 
     if not subreddit:
         return None
