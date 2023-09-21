@@ -47,4 +47,3 @@ def recurse(subreddit, hot_list=[], after=None):
 # Example usage:
 # hot_articles = recurse('programming')
 # print(hot_articles)
-
